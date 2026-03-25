@@ -197,15 +197,6 @@ http://localhost:8000
 
 ---
 
-## Getting the Model
-
-The `best.pt` model file is not included in this repository due to its size (~85 MB). To obtain it:
-
-- Contact the author via email
-- Or retrain the model using the dataset and configuration described in the thesis report
-
----
-
 ## License
 
 This project was created solely for academic purposes (undergraduate thesis). Commercial use without written permission from the author is prohibited.
