@@ -74,6 +74,9 @@ proyek_yolo/
 │
 ├── 📂 .vscode/
 │   └── launch.json
+|   
+|    📂 model/
+│   └── best.pt
 │
 ├── 📂 backend/
 │   └── main.py                  # FastAPI server & /predict endpoint
@@ -87,10 +90,6 @@ proyek_yolo/
         ├── logod.png
         └── logox.png
 ```
-
-> ⚠️ The `model/` folder and `best.pt` file are **not included** in this repository due to file size (~85 MB). See **Getting the Model** section below.
-
----
 
 ## Tech Stack
 
