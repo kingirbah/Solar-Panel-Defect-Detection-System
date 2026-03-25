@@ -1,0 +1,17 @@
+# ================================================================
+# Requirements — Sistem Deteksi Kerusakan Panel Surya
+# Cara install: pip install -r requirements.txt
+# ================================================================
+
+# Web Framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# Pemrosesan Gambar
+Pillow==10.3.0
+
+# Model YOLOv8
+ultralytics==8.2.0
+
+# Wajib untuk file upload di FastAPI
+python-multipart==0.0.9

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defect Detection</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=IBM+Plex+Mono&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="#" class="logo">
+                <img src="/static/assets/logox.png" alt="Logo Solar">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#input-section">Mulai Deteksi</a></li>
+                <li><a href="#hasil-section">Lihat Hasil</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <header>
+            <img src="/static/assets/logo.png" alt="Logo Utama" class="header-logo">
+            <p class="subtitle">Proyek Skripsi Naufal Irbah Rabbani</p>
+            <h1>Sistem Deteksi Kerusakan Pada Panel Surya</h1>
+        </header>
+
+        <div class="input-area" id="input-section">
+            <label for="image-upload" class="upload-btn-label">Pilih Gambar</label>
+            <input type="file" id="image-upload" accept="image/*" multiple>
+            <div id="status">Belum ada gambar dipilih</div>
+            <button id="predict-button" disabled>Find Defect</button>
+        </div>
+
+        <section id="hasil-section">
+            <div id="results-container"></div>
+        </section>
+    </main>
+
+    <div id="zoomModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content-wrapper">
+            <div class="modal-image-container">
+                <h3>Sebelum Deteksi</h3>
+                <img id="imageBefore" class="modal-content">
+            </div>
+            <div class="modal-image-container">
+                <h3>Sesudah Deteksi</h3>
+                <canvas id="canvasAfter" class="modal-content"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+    <script>
+    // Pilih elemen navbar
+    const navbar = document.querySelector('.navbar');
+
+    // Tambahkan event listener saat window di-scroll
+    window.addEventListener('scroll', () => {
+        // Cek apakah posisi scroll lebih besar dari 10px
+        if (window.scrollY > 10) {
+            navbar.classList.add('navbar-scrolled');
+        } else {
+            navbar.classList.remove('navbar-scrolled');
+        }
+    });
+    </script>
+
+</body>
+</html>
