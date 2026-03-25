@@ -1,6 +1,6 @@
 # Solar Panel Defect Detection System
 
-> **Undergraduate Thesis Project** · Naufal Irbah Rabbani  
+> **Undergraduate Thesis Project - DETEKSI KERUSAKAN PADA PANEL SURYA MENGGUNAKAN METODE YOU ONLY LOOK ONCE (YOLO) v8** · Naufal Irbah Rabbani  
 > Institut Teknologi PLN · 2025
 
 An AI-powered web application for automatically detecting defects in solar panels using a **YOLOv8** model. The system identifies three types of defects — *crack*, *snail track*, and *burn mark* — and classifies panels in good condition as *non defective*.
@@ -202,4 +202,4 @@ This project was created solely for academic purposes (undergraduate thesis). Co
 
 ---
 
-*© 2025 · Naufal Irbah Rabbani · Undergraduate Thesis*
+*© 2025 · Naufal Irbah Rabbani · Undergraduate Thesis  DETEKSI KERUSAKAN PADA PANEL SURYA MENGGUNAKAN METODE YOU ONLY LOOK ONCE (YOLO) v8*
