@@ -10,12 +10,12 @@ An AI-powered web application for automatically detecting defects in solar panel
 ## Preview
 
 ### Home Page
-![Home Page](assets/Halaman Utama.png)
+![Home Page](frontend/assets/halaman_utama.png)
 
 ### Detection Result
-![Detection Result](assets/List Preview.png)
-![Details](assets/Preview Detection 1.png)
-![Details](assets/Preview Detection 1.png)
+![Detection Result](frontend/assets/list_preview.png)
+![Details](frontend/assets/preview_detection_1.png)
+![Details](frontend/assets/preview_detection_2.png)
 ---
 
 ## System Flowchart
