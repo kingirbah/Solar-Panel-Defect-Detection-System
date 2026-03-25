@@ -75,7 +75,7 @@ proyek_yolo/
 ├── 📂 .vscode/
 │   └── launch.json
 |   
-|    📂 model/
+|   📂 model/
 │   └── best.pt
 │
 ├── 📂 backend/
